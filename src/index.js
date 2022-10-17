@@ -238,7 +238,7 @@ function showPokemonAbilities(abilities) {
 
 function showPokemonWeight(weight) {
   const $li = document.createElement("li");
-  $li.textContent = `Weight: ${weight}`;
+  $li.textContent = `Weight: ${weight / 10}`;
   return $li;
 }
 
